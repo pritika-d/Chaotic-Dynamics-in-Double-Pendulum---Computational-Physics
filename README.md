@@ -37,27 +37,11 @@ All cases use $m_1 = m_2 = 1$ kg, $l_1 = l_2 = 1$ m and $\omega_1(0) = \omega_2(
 
 ## Results
 
-**Angles vs. time.** Case A oscillates smoothly and almost periodically, while Case C is irregular and covers a much larger range of angles.
-
-| Case A (10°, 15°) | Case C (70°, 100°) |
-|:---:|:---:|
-| ![Case A](images/02_angles_vs_time_case_A.png) | ![Case C](images/01_angles_vs_time_case_C.png) |
-
-**Phase space.** Case A gives thin, closed bands, while Case C fills a much larger region without closing.
-
-| Case A: ω₁ vs. θ₁ | Case C: ω₁ vs. θ₁ |
-|:---:|:---:|
-| ![Phase space A](images/05_phase_space_w1_theta1_case_A.png) | ![Phase space C](images/03_phase_space_w1_theta1_case_C.png) |
-
-**Sensitivity to initial conditions.** Changing $\theta_1(0)$ by only $10^{-3}$° ($D(0) \approx 1.745\times10^{-5}$) has no visible effect on Case A. In Case C the separation stays tiny for about 10 s, then grows to order one by about 20 s.
-
-| Case A | Case C |
-|:---:|:---:|
-| ![Sensitivity A](images/07_sensitivity_case_A.png) | ![Sensitivity C](images/08_sensitivity_case_C.png) |
-
-**Largest Lyapunov exponent.** For Case C, $\lambda_{\max} \approx 0.49\ \text{s}^{-1}$, so a small error grows by a factor of $e$ about every 2 s. For Cases A and B the values are too small to distinguish from finite-time effects in a 30 s run.
-
-**Accuracy.** The relative energy error decreases as the time step is reduced, and stays below about $10^{-6}$ even for Case C.
+- **Angles vs. time:** Case A oscillates smoothly and almost periodically, while Case C is irregular and covers a much larger range of angles.
+- **Phase space:** Case A gives thin, closed bands, while Case C fills a much larger region without closing.
+- **Sensitivity to initial conditions:** changing $\theta_1(0)$ by only $10^{-3}$° ($D(0) \approx 1.745\times10^{-5}$) has no visible effect on Case A. In Case C the separation stays tiny for about 10 s, then grows to order one by about 20 s.
+- **Largest Lyapunov exponent:** for Case C, $\lambda_{\max} \approx 0.49\ \text{s}^{-1}$, so a small error grows by a factor of $e$ about every 2 s. For Cases A and B the values are too small to distinguish from finite-time effects in a 30 s run.
+- **Accuracy:** the relative energy error decreases as the time step is reduced, and stays below about $10^{-6}$ even for Case C.
 
 ## Limitations
 
@@ -77,4 +61,4 @@ python double_pendulum_project.py
 
 ## Author
 
-*Your name here*
+*Pritika D, Engineering Physics, IIT Hyderabad*

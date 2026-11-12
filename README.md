@@ -21,9 +21,9 @@ $$\ddot\theta_2=\frac{2\sin\Delta\left[\omega_1^2 l_1(m_1+m_2)+g(m_1+m_2)\cos\th
 
 The denominator is always positive ($\geq 2m_1$), so the equations are well defined for all states. They are integrated as four first-order equations in $y = (\theta_1, \omega_1, \theta_2, \omega_2)$ using RK4. The full derivation is in the project report.
 
-Sensitivity is measured with a dimensionless state-space distance, with angle differences wrapped to $(-\pi, \pi]$ and velocities scaled by $\omega^* = \sqrt{g/l_1}$:
+Sensitivity is measured with a dimensionless state-space distance, with angle differences wrapped to $(-\pi, \pi]$ and velocities scaled by $\omega^{\ast} = \sqrt{g/l_1}$:
 
-$$D(t)=\sqrt{(\Delta\theta_1)^2+(\Delta\theta_2)^2+\left(\frac{\Delta\omega_1}{\omega^*}\right)^2+\left(\frac{\Delta\omega_2}{\omega^*}\right)^2}$$
+$$D(t)=\sqrt{(\Delta\theta_1)^2+(\Delta\theta_2)^2+\left(\frac{\Delta\omega_1}{\omega^{\ast}}\right)^2+\left(\frac{\Delta\omega_2}{\omega^{\ast}}\right)^2}$$
 
 ## Test Cases
 
